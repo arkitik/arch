@@ -1,0 +1,21 @@
+{
+  "scenarios": [
+    {
+      "name": "Sample Scenario",
+      "cases": [
+        {
+          "mapping": "data-RANDOM(CHARS,6)-RANDOM(CHARS,4)",
+          "responseType": "NOT_ACCEPTABLE",
+          "request": {
+            "timestamp": "+3620s"
+          },
+          "response": {
+            "code": "code",
+            "description": "description"
+          },
+          "requestType": "POST"
+        }
+      ]
+    }
+  ]
+}
